@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.inkryptvideos.android",
+    "module": "inkryptvideos-android",
+    "version": "2.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inkryptvideos-android-2.8.0.aar",
+          "url": "inkryptvideos-android-2.8.0.aar",
+          "size": 226931,
+          "sha512": "c9cf89632d39f53a55896c8a126cf1114b2d4138d5b56b8a9d20311edee2c5c5ec6c4d12cd103eb4d33fc362eee45c931cee200a4845dc8a9a004f5d21d4b07a",
+          "sha256": "357ee164da8eb505b9ae4f6360a01136ce48fff3f4d4750835216f529c1392ea",
+          "sha1": "b42810c55bb409a8eb14b7fbff6da5d786cebcf0",
+          "md5": "a4db2fcf8f50197fc9e9f4d69f6d5eac"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "com.github.SmartToolFactory",
+          "module": "Compose-Colorful-Sliders",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.0.0-beta03"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.0.0-beta03"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-dash",
+          "version": {
+            "requires": "1.0.0-beta03"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.4.0-alpha03"
+          }
+        },
+        {
+          "group": "com.android.volley",
+          "module": "volley",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-datasource-okhttp",
+          "version": {
+            "requires": "1.0.0-beta03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inkryptvideos-android-2.8.0.aar",
+          "url": "inkryptvideos-android-2.8.0.aar",
+          "size": 226931,
+          "sha512": "c9cf89632d39f53a55896c8a126cf1114b2d4138d5b56b8a9d20311edee2c5c5ec6c4d12cd103eb4d33fc362eee45c931cee200a4845dc8a9a004f5d21d4b07a",
+          "sha256": "357ee164da8eb505b9ae4f6360a01136ce48fff3f4d4750835216f529c1392ea",
+          "sha1": "b42810c55bb409a8eb14b7fbff6da5d786cebcf0",
+          "md5": "a4db2fcf8f50197fc9e9f4d69f6d5eac"
+        }
+      ]
+    }
+  ]
+}
