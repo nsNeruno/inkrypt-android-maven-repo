@@ -47,8 +47,8 @@ Please make sure to get these credentials using your own Backend APIs. Follow th
 ```java
 // preparing player parameters
 InkInitParams params = new InkInitParams.Builder()
-        .setVideoId("a2b05c42c08047b8952aa857770ba819")
-        .setOtp("2601de3780264eefb6b017f2d13441b172cea8c4242f4e5883107fd391c3444e")
+        .setVideoId("a2b05c42c08047b8952aa857770ba***")
+        .setOtp("2601de3780264eefb**************2f4e5883107fd391c3444e")
         .setAutoplay(false) // set autoplay to off
         .setInitialAspectRatio(1.78f) // this is optional use it to set initial aspect ratio before any video is loaded
         //If you load another video the player will keep the same aspect ratio you don't need to call it twice
@@ -118,3 +118,7 @@ inkPlayerFragment.setAutoplay(true);
 // Returns true if player is loading a video
         inkPlayerFragment.isLoading();
 ```
+
+
+### Sample App
+Please refer to [this project](https://github.com/inkryptvideos/android-sample-project)
